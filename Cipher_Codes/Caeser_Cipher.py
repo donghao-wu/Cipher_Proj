@@ -16,3 +16,6 @@ def caesar_cipher_decode(encoded_text, shift):
         else:
             decoded_text += char  # Non-alphabet characters remain unchanged
     return decoded_text
+
+#example use: the text you want to transform to caesar cipher is 'dog', the shift you want to make is 1
+print(caesar_cipher_decode("dog", 1)) # the code will be cnf
