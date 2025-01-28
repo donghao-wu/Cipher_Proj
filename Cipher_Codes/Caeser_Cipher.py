@@ -15,5 +15,4 @@ def caesar_cipher_decode(encoded_text, shift):
             decoded_text += decoded_char
         else:
             decoded_text += char  # Non-alphabet characters remain unchanged
-
     return decoded_text
