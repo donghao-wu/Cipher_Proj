@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+
 def caesar_code(encoded_text, shift):
     """
     Decodes a Caesar Cipher encoded string.
@@ -36,7 +37,7 @@ def decode_message():
 # Create the main window
 root = tk.Tk()
 root.title("Caesar Cipher Decoder")
-root.geometry("450x350")
+root.geometry("900x700")
 root.configure(bg="#2C3E50")
 
 # Styling
